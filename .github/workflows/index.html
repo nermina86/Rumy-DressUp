@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rumy Dress Up — Support & Policy</title>
+  <meta name="description" content="Support contact, Privacy Policy, and Terms of Use for the Rumy Dress Up app." />
+  <meta property="og:title" content="Rumy Dress Up — Support & Policy" />
+  <meta property="og:description" content="Support contact, Privacy Policy, and Terms of Use for the Rumy Dress Up app." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#8b5cf6" />
+  <style>
+    :root{
+      --bg: #0f1020;      /* deep indigo */
+      --panel: #171833;   /* card */
+      --text: #f8f8ff;    /* near-white */
+      --muted: #c7c8ff;   /* soft indigo */
+      --brand: #a78bfa;   /* violet */
+      --accent: #8b5cf6;  /* purple */
+      --ok: #10b981;      /* green */
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 10% -10%, rgba(167,139,250,.25), transparent 60%),
+                  radial-gradient(1000px 500px at 90% 0%, rgba(139,92,246,.22), transparent 60%),
+                  var(--bg);
+      color:var(--text); line-height:1.6;
+    }
+    .wrap{max-width:1000px; margin:0 auto; padding:32px 20px 80px}
+    header{display:flex; align-items:center; gap:14px; margin-bottom:24px}
+    .logo{
+      width:42px; height:42px; border-radius:12px;
+      display:grid; place-items:center; font-weight:800; letter-spacing:.5px;
+      background: linear-gradient(135deg, var(--brand), var(--accent));
+      color:#09091a; box-shadow:0 6px 30px rgba(139,92,246,.35);
+    }
+    h1{font-size:clamp(22px, 3.3vw, 38px); margin:0}
+    .sub{color:var(--muted)}
+
+    .grid{display:grid; gap:18px; grid-template-columns:1fr;}
+    @media (min-width: 840px){ .grid{grid-template-columns:1fr 1fr;} }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00));
+      border:1px solid rgba(167,139,250,.18);
+      border-radius:18px; padding:22px 20px; backdrop-filter: blur(6px);
+      box-shadow:0 10px 40px rgba(0,0,0,.25);
+    }
+    .card h2{margin:0 0 8px; font-size:20px}
+    .card p{margin:0 0 10px}
+    .list{padding-left:18px}
+
+    a{color:var(--brand)}
+    a:hover{text-decoration:none; filter:brightness(1.1)}
+
+    .pill{
+      display:inline-flex; align-items:center; gap:8px; padding:6px 10px; border-radius:999px;
+      background:rgba(16,185,129,.1); color:#bbf7d0; border:1px solid rgba(16,185,129,.25); font-size:13px; font-weight:600
+    }
+    footer{margin-top:28px; color:var(--muted); font-size:14px}
+    .hr{height:1px; background:linear-gradient(90deg, transparent, rgba(167,139,250,.35), transparent); margin:18px 0}
+    code{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; color:#e9d5ff}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden="true">RD</div>
+      <div>
+        <h1>Rumy Dress Up — Support & Policy</h1>
+        <div class="sub">Official support contact, privacy policy, and terms of use.</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="card" aria-labelledby="support">
+        <h2 id="support">📩 Support</h2>
+        <p>If you have questions, feedback, or need help using <strong>Rumy Dress Up</strong>, contact us:</p>
+        <p><a href="mailto:minamemisevic86@gmail.com" class="pill" aria-label="Email support at minamemisevic86@gmail.com">✉️ minamemisevic86@gmail.com</a></p>
+        <p class="sub">We aim to respond within 48 hours.</p>
+      </section>
+
+      <section class="card" aria-labelledby="privacy">
+        <h2 id="privacy">📜 Privacy Policy</h2>
+        <ul class="list">
+          <li><strong>No data collection.</strong> The app does not collect, store, or share any personal or anonymous information.</li>
+          <li><strong>Children’s privacy.</strong> Designed for all ages. We do not knowingly collect personal information from children.</li>
+          <li><strong>Contact.</strong> For privacy concerns, email <a href="mailto:minamemisevic86@gmail.com">minamemisevic86@gmail.com</a>.</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="terms">
+        <h2 id="terms">⚖️ Terms of Use</h2>
+        <ul class="list">
+          <li>The app is for <strong>personal, non‑commercial use</strong> only.</li>
+          <li>You may not copy, resell, or distribute assets from the app.</li>
+          <li>The entire code and characters are copyright ownership of our designers.</li>
+          <li>We may update the app or this policy at any time.</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="updates">
+        <h2 id="updates">🗓️ Policy Updates</h2>
+        <p>Last updated: <strong>September 9, 2025</strong></p>
+      </section>
+    </div>
+
+    <div class="hr" role="separator" aria-hidden="true"></div>
+
+    <footer>
+      <p>© <span id="y"></span> Rumy Dress Up. All rights reserved.</p>
+      <p>Hosted on <code>GitHub Pages</code>.</p>
+    </footer>
+  </div>
+
+  <!-- Optional structured data for contact info -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Rumy Dress Up",
+    "url": "https://your-username.github.io/rumydressup/",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "email": "minamemisevic86@gmail.com",
+      "contactType": "customer support"
+    }]
+  }
+  </script>
+  <script>
+    // Year in footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
